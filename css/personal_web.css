@@ -1,0 +1,357 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*{
+    
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2{
+    font-family: Helvetica,Arial;
+    letter-spacing: 1px;
+    font-weight: 700;    
+}
+
+.topmenu{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+.topmenu h3{
+   display: inline;
+   font-size: 40px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+
+.fab {
+    font-size: 50px;
+}
+
+.menu li{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.menu{
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-image: url(../img/miroslav-skopek-526075-unsplash.jpg);
+    height: 500px;
+    width: 100%;
+    color:white;
+}
+
+.header h1{
+    font-size: 40px;
+    text-align: center;
+   padding-top: 200px;
+}
+
+.header h2{
+    text-align: center;
+    padding-top: 10px;
+ }
+
+ .header p{
+     text-align: center;
+    padding-top: 30px;
+ }
+
+.line{
+    height: 4px;
+    width: 60px;
+    position: absolute;
+    background-color: black;
+    top:330px;
+    left: 600px;
+    background-color: #f75000;
+}
+
+.about{
+    color: white;
+    background-color: #ff5151;
+   box-sizing: border-box;
+   height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.about .resume{
+    width: 70px;
+    height: 20px;
+    background-color: rgba(0,0,0,0.3);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.resume a{
+     padding-left: 10px;
+     color: white;
+}
+.line2{
+    height: 4px;
+    width: 70px;
+    position: absolute;
+    background-color: black;
+    top:100px;
+    left: 595px;
+    background-color:white;
+}
+
+.about h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.about p{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.skill{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.skill h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.area{
+    height: 200px;
+    width: 220px;
+    display: inline-block;
+    margin-left: 17px;
+}
+
+.area p{
+   text-align: center;
+   padding-top: 10px;
+   line-height: 24px;
+   font-family: 微軟正黑體;
+}
+
+.line3{
+    height: 4px;
+    width: 60px;
+    position: absolute;
+    background-color: black;
+    top:120px;
+    left: 600px;
+    background-color: #ff5151;
+}
+.fa-html5{
+    padding-left: 50px;
+    color: red;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.fa-css3-alt{
+   color: blue;
+   font-size: 60px;
+   padding-top: 20px;
+}
+
+.fa-js-square{
+    color:black;
+    padding-left: 100px;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.fa-node{
+    color:greenyellow;
+    padding-left: 70px;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.fa-vuejs{
+    color:green;
+    padding-left: 100px;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.fa-git{
+    color:black;
+    padding-left: 70px;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.Project{
+background-color:	#ffffdf	;	
+    width: 100%;
+    display: inline-block;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    border-radius: 20px;
+
+}
+
+.Project h1{
+    padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.top{
+    height: 250px;
+    widows: 100%;
+    margin-top: 60px;
+}
+
+.bottom{
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.work{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 160px;
+    font-family: 微軟正黑體;
+ 
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+.work img{
+    height: 200px;
+    width: 200px;
+}
+
+.Project h5{
+    padding-left: 55px;
+    padding-top: 10px;
+    font-weight: bold;
+  
+  }
+
+.connection{
+    width: 100%;
+    height: 550px;
+}
+
+.connection h1{
+    padding-top: 40px;
+    text-align: center; 
+   font-size: 30px;
+}
+
+.contact{
+    margin-left: 38%;
+    margin-right: 40%;
+    margin-top: 10px;
+    padding: 20px;
+    height: 470px;
+    width: 250px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    font-family: 微軟正黑體;
+}
+
+.contact h3{
+   padding-left: 50px;
+   padding-top: 20px;
+   font-weight: bold;
+}
+
+.contact h4{
+    padding-left: 20px;
+    padding-top: 20px;
+  
+ }
+
+.fa-facebook {
+    padding-top: 20px;
+    padding-left: 40px;
+ }
+
+ .fa-github {
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+
+.phto{
+    
+    height: 320px;
+    width: 250px;
+    border-radius: 40%;
+}
+
+.phto img{
+   background-size: cover;
+   box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
