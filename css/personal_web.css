@@ -124,7 +124,7 @@ h1,h2{
     position: absolute;
     background-color: black;
     top:330px;
-    left: 600px;
+    left: 820px;
     background-color: #f75000;
 }
 
@@ -156,7 +156,7 @@ h1,h2{
     position: absolute;
     background-color: black;
     top:100px;
-    left: 595px;
+    left: 805px;
     background-color:white;
 }
 
@@ -189,7 +189,7 @@ h1,h2{
     height: 200px;
     width: 220px;
     display: inline-block;
-    margin-left: 17px;
+    margin-left: 100px;
 }
 
 .area p{
@@ -205,7 +205,7 @@ h1,h2{
     position: absolute;
     background-color: black;
     top:120px;
-    left: 600px;
+    left: 815px;
     background-color: #ff5151;
 }
 .fa-html5{
@@ -280,7 +280,7 @@ background-color:	#ffffdf	;
     height: 200px;
     width: 200px;
     display: inline-block;
-    margin-left: 160px;
+    margin-left: 280px;
     font-family: 微軟正黑體;
  
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
@@ -311,7 +311,7 @@ background-color:	#ffffdf	;
 }
 
 .contact{
-    margin-left: 38%;
+    margin-left: 42%;
     margin-right: 40%;
     margin-top: 10px;
     padding: 20px;
